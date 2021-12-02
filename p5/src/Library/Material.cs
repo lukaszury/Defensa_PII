@@ -31,7 +31,7 @@ namespace Ucu.Poo.Defense
                 return false;
             }
             // Retornar True si el otro objeto tiene el mismo texto que este objeto; y False en caso contrario
-            else
+            else   ()
             {
                 return this.Type.Equals(((Residue)obj).Type) &&
                     this.Name.Equals(((Residue)obj).Name);
